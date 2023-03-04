@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Start Variables */
+:root {
+    --main-color: #ff4136;
+}
+
+/* End Variables */
+
+
+/* Start Global Rules */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+    font-family: 'Dosis', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+.container {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* End Global Rules */
+
+/* ..........................................................*/
+
+/* Start Header */
+header {
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    width: 100%;
+
+}
+
+header .container {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+header .logo img {
+    text-decoration: none;
+}
+
+
+header nav {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav ul {
+    display: flex;
+
+
+}
+
+
+
+@media (max-width:850px) {
+    header nav ul {
+        display: none;
+    }
+
+}
+
+header nav ul li a {
+    padding: 30px 16px;
+    display: block;
+    color: #666666;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+
+    position: relative;
+    font-style: normal;
+
+
+}
+
+header nav ul li a:hover {
+    color: var(--main-color);
+}
+
+header .form {
+    position: relative;
+
+}
+
+
+
+header .form i {
+    padding: 16px;
+    color: #666666;
+    font-size: large;
+}
+
+header .form i:hover {
+    color: var(--main-color);
+}
+
+/* End Header */
+
+/* Start Landing-about */
+
+section {
+    padding: 200px;
+    padding-top: 300px;
+}
+
+.Landing-about1 {
+    height: 50vh;
+    padding-top: 300px;
+    background: url(../images/1.jpg);
+    text-align: center;
+    width: 100%;
+
+}
+
+.Landing-about1 h2 {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.Landing-about1 a {
+    font-size: large;
+    text-decoration: none;
+    color: black;
+}
+
+.Landing-about1 a:hover {
+    color: #ff4136;
+}
+
+.Landing-about1 .about-Us {
+    font-size: large;
+}
+
+/* End Landing-blog */
+
+.welcome1 {
+
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+
+
+}
+
+.welcome2 {
+    font-weight: 400;
+    font-size: 24px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.Lorem {
+    width: 800px;
+    text-align: center;
+    color: #666666;
+    margin: 27px auto auto;
+
+
+
+}
+
+
+
+.Btn22 {
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+
+    background-color: white;
+    color: #ff4136;
+    border: 0.5px solid #666666;
+    height: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 45%;
+    margin-bottom: 100px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.Btn22:hover {
+    background-color: #ff4136;
+    color: white;
+}
+
+
+/* ===================================
+   ===================================
+
+   =========== start team area ========
+
+   ===================================
+   =================================== */
+
+
+.contaner2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin: 0px;
+}
+
+.card2 {
+    /* background-color: white;
+    color: rgb(27, 25, 25); */
+    width: 22.25em;
+    padding: 45px;
+    margin: -20px;
+    border: none;
+    margin-right: 2px;
+    /* display: flex;
+    position: initial; */
+
+}
+
+.img3 {
+    position:relative;
+    width: 300px;
+    height: 300px;
+    display: flexbox;
+    flex-direction: row;
+    padding: 12px;
+    margin: 21px;
+    border: 1.5px solid gray;
+    border-radius: 50%;
+    margin-bottom: 32px;
+    margin-left: -36px;
+    margin-right: 4px;
+}
+
+
+p  {
+    align-items: center;
+    text-align: center;
+    margin-left: 10px;
+    padding-right: 50px;
+    margin: 10px;
+}
+
+p:hover {
+    color: gold;
+}
+
+.text4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}

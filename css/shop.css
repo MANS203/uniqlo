@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Start Variables */
+:root {
+    --main-color: #ff4136;
+}
+
+/* End Variables */
+
+
+/* Start Global Rules */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+    font-family: 'Dosis', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+.container {
+    margin-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* End Global Rules */
+
+/* ..........................................................*/
+
+/* Start Header */
+header {
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: white; */
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.1);
+
+
+}
+
+header .container {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+header .logo img {
+    text-decoration: none;
+}
+
+
+header nav {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav ul {
+    display: flex;
+
+
+}
+
+
+
+@media (max-width:850px) {
+    header nav ul {
+        display: none;
+    }
+
+}
+
+header nav ul li a {
+    padding: 30px 16px;
+    display: block;
+    color: #666666;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+
+    position: relative;
+    font-style: normal;
+
+
+}
+
+header nav ul li a:hover {
+    color: var(--main-color);
+}
+
+header .form {
+    position: relative;
+
+}
+
+
+
+header .form i {
+    padding: 16px;
+    color: #666666;
+    font-size: large;
+}
+
+header .form i:hover {
+    color: var(--main-color);
+}
+
+/* End Header */
+
+
+
+section {
+    padding: 100px 200px;
+}
+
+.main {
+    /* display: flex; */
+    width: 100%;
+    min-height: 150vh;
+    /* padding-top:350px ;
+    padding-right:180px ; */
+    text-align: center;
+}
+
+
+.title {
+    text-decoration: none;
+    /* display: flex; */
+    justify-content: center;
+    color: black;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.navigation2 a {
+    color: rgb(85, 81, 81);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 20px;
+    letter-spacing: 2px;
+    padding-left: 50px;
+    margin-top: 50px;
+}
+
+.navigation2 a:hover {
+    color: #ff4136;
+}
+
+.navigation2 .all {
+    color: #ff4136;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    color: rgb(27, 25, 25);
+    width: 22.25em;
+    padding: 40px;
+    margin: -25px;
+}
+
+.cards {
+    background-color: white;
+}
+
+
+.info {
+
+    font-size: 1.2em;
+    margin: 10px;
+
+}
+
+.money {
+    color: #ff4136;
+}
+
+del {
+    color: #9c9b9b;
+}
+
+.load-more {
+    margin: 0;
+    text-align: center;
+}
+
+.button {
+    background-color: white;
+    color: #4b4b4b;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.187em;
+    letter-spacing: 1px;
+    border: 1px solid #eeeeee;
+    transition: 0.7s;
+}
+
+.button:hover {
+    background-color: #ff4136;
+    color: #eeeeee;
+    /* transform: scale(1.1); */
+}
+
+
+
+.footer {
+    background-image: url(images/bg/1.jpg);
+    margin-top: 150px;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.contanier {
+    max-width: 500px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    text-align: start;
+    width: 25%;
+    padding-left: 80px;
+
+    color: #444444;
+
+
+}
+
+.footer-col li {
+    font-size: 15px;
+}
+
+hr {
+    margin-top: 7px;
+    color: #9c9b9b;
+    text-align: center;
+    margin-left: -119px;
+}
+
+.footer-col li .icon a {
+    background-color: white;
+    size: 90px;
+}
+
+.footer-col li .icon a:hover {
+    color: #ff4136;
+}
+
+.pp {
+    margin-right: -100px;
+    float: left;
+}
+
+.ppp {
+    text-decoration: none;
+    color: black;
+}
+
+.ppp:hover {
+    color: #ff4136;
+}
+
+.boo a {
+    color: #666666;
+    float: right;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 20px;
+
+}
+
+.boo a:hover {
+    color: #ff4136;
+}
+
+.boo {
+    margin-left: -110px;
+}
